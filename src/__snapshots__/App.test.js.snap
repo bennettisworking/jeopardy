@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders 1`] = `
+<div
+  className="jeopardy-app"
+>
+  <div
+    className="board"
+  >
+    
+  </div>
+  <button
+    className="board__reset btn"
+    onClick={[Function]}
+  >
+    reset
+  </button>
+  <div
+    className="board__dropdowns"
+  >
+    <label>
+      Number of Questions 
+    </label>
+    <select
+      onChange={[Function]}
+    >
+      <option
+        value="4"
+      >
+        Four
+      </option>
+      <option
+        value="5"
+      >
+        Five
+      </option>
+      <option
+        value="6"
+      >
+        Six
+      </option>
+    </select>
+    <label>
+      Number of Categories 
+    </label>
+    <select
+      onChange={[Function]}
+    >
+      <option
+        value="4"
+      >
+        Four
+      </option>
+      <option
+        value="5"
+      >
+        Five
+      </option>
+      <option
+        value="6"
+      >
+        Six
+      </option>
+    </select>
+  </div>
+</div>
+`;
