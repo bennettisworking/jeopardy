@@ -105,13 +105,13 @@ class App extends Component {
         </div>
         <button className="board__reset btn" onClick={()=>{this.resetGame()}}>reset</button>
         <div className="board__dropdowns">
-          <label>Number of Questions </label>
+          <label>Number of Categories </label>
           <select onChange={this.setCategoryLimit}>
             <option value="4">Four</option>
             <option value="5">Five</option>
             <option value="6">Six</option>
           </select>
-          <label>Number of Categories </label>
+          <label>Number of Questions </label>
           <select onChange={this.setClueLimit}>
             <option value="4">Four</option>
             <option value="5">Five</option>
