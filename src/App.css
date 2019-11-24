@@ -48,11 +48,9 @@ body, html {
   width: 580px;
   text-align: center;
   margin: 20px auto 0;
-  
   color: #fff;
   font-family: 'Oswald', sans-serif;
 }
-
 .board__dropdowns select {
   width: 100px;
   height: 20px;
